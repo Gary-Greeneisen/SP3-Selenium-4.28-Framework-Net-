@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\Application\" />
+    <Folder Include="Common\DataAccess\" />
+    <Folder Include="Common\Exceptions\" />
+    <Folder Include="Common\Library\" />
+    <Folder Include="Common\Utilities\" />
+    <Folder Include="Config\" />
+    <Folder Include="DataFiles\Dev\" />
+    <Folder Include="DataFiles\Local\" />
+    <Folder Include="DataFiles\Prod\" />
+    <Folder Include="DataFiles\QA\" />
+    <Folder Include="Documemtation\" />
+    <Folder Include="Features\E2EWorkflowTests\" />
+    <Folder Include="Features\FunctionalTests\" />
+    <Folder Include="Features\POC\" />
+    <Folder Include="Features\Requirements\" />
+    <Folder Include="Features\StoryCards\" />
+    <Folder Include="Features\TestFiles\" />
+    <Folder Include="Interface\" />
+    <Folder Include="PageObjects\" />
+    <Folder Include="Steps\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="9.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.1" />
+    <PackageReference Include="Selenium.Support" Version="4.28.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.28.0" />
+    <PackageReference Include="YamlDotNet" Version="16.3.0" />
+  </ItemGroup>
+
+</Project>
